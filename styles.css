@@ -161,3 +161,23 @@ h1 {
   font-weight: 400;
   color: #515076;
 }
+
+.toggle-btn {
+  padding: 12px 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #515076; /* Первый цвет */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Чтобы цвет менялся плавно, а не резко */
+  margin: 20px auto;
+  display: block;
+}
+
+.toggle-btn.active {
+  background-color: #A5A3B9;
+  color: #ffffff;
+}

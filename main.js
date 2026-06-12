@@ -36,3 +36,15 @@ function outputConsoleLog(message) {
   alert('Смотри в консоль лог!');
   console.log(message);
 }
+
+const mainTitle = document.querySelector('h1');
+
+mainTitle.addEventListener('mouseover', () => {
+  console.log(mainTitle.textContent);
+});
+
+const toggleButton = document.getElementById('colorToggleBtn');
+
+toggleButton.addEventListener('click', () => {
+  toggleButton.classList.toggle('active');
+});
